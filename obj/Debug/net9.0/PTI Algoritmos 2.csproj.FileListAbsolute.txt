@@ -54,3 +54,4 @@ c:\Users\User\OneDrive\Faculdade ADS\Senac 2 Sem\Algoritmos 2\PTI Algoritmos 2\P
 c:\Users\User\OneDrive\Faculdade ADS\Senac 2 Sem\Algoritmos 2\PTI Algoritmos 2\PTI-algoritmos2-lojinhacelular\bin\Debug\net9.0\PTI Algoritmos 2.pdb
 C:\Users\User\OneDrive\Faculdade ADS\Senac 2 Sem\Algoritmos 2\PTI Algoritmos 2\PTI-algoritmos2-lojinhacelular\obj\Debug\net9.0\PTI Algoritmos 2.genruntimeconfig.cache
 C:\Users\User\OneDrive\Faculdade ADS\Senac 2 Sem\Algoritmos 2\PTI Algoritmos 2\PTI-algoritmos2-lojinhacelular\obj\Debug\net9.0\ref\PTI Algoritmos 2.dll
+c:\Users\User\OneDrive\Faculdade ADS\Senac 2 Sem\Algoritmos 2\PTI Algoritmos 2\PTI-algoritmos2-lojinhacelular\obj\Debug\net9.0\PTI Algoritmos 2.sourcelink.json
