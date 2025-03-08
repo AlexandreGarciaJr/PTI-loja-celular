@@ -17,6 +17,8 @@
 
 ```mermaid
 classDiagram
+    direction TB
+
     class Produto {
         - string Nome
         - double Preco
@@ -24,27 +26,29 @@ classDiagram
         - string Modelo
         - string Cor
         - int Estoque
-        + Produto(string, double, string, string, string)
-        + AumentarEstoque(int)
-        + DiminuirEstoque(int)
+        + Produto(string nome, double preco, string marca, string modelo, string cor)
+        + AumentarEstoque(int quantidade)
+        + DiminuirEstoque(int quantidade)
         + ToString() string
     }
 
     class Estoque {
         - Produto[] produtos
         - int contador
-        - const int capacidadeMaxima
+        - const int capacidadeMaxima = 100
         + Estoque()
-        + AdicionarProduto(string, double, string, string, string)
+        + AdicionarProduto(string nome, double preco, string marca, string modelo, string cor)
         + ListarProdutos()
-        + RemoverProduto(int)
-        + EntradaEstoque(int, int)
-        + SaidaEstoque(int, int)
+        + RemoverProduto(int indice)
+        + EntradaEstoque(int indice, int quantidade)
+        + SaidaEstoque(int indice, int quantidade)
     }
 
     class Program {
         + Main()
     }
 
-    Estoque "1" --> "*" Produto
+    %% Relacionamentos
+    Estoque "1" --> "*" Produto : contém
+    Program --> Estoque : utiliza
 ```
